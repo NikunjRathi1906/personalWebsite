@@ -9,6 +9,7 @@ body {
   width: 100%;
   font-family: "Audiowide", cursive;
   object-fit: fill;
+  background: teal;
 }
 .full-screen {
   width: 100%;
