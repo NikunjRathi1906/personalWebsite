@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(ghosts.jpeg) no-repeat;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-size: cover;
+  height: 100%;
+}
+.box {
+  width: auto;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: "Pacifico", cursive;
+  border-radius: 20px;
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(
+    360deg,
+    yellow,
+    orange,
+    red,
+    purple,
+    midnightblue,
+    teal,
+    cyan
+  );
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 10s linear infinite;
+}
+
+@keyframes animated-gradient {
+  25% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: right bottom;
+  }
+  75% {
+    background-position: right top;
+  }
+  100% {
+    background-position: left top;
+  }
+}
+
+.box h1 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: "Monoton", cursive;
+}
+.box h5 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
+  font-size: 40px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+  color: #b9b9b9;
+}
+.contact-btn {
+  display: inline-block;
+  padding: 12px 50px;
+  color: cyan;
+  border: 2px solid teal;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+  font-family: "Audiowide", cursive;
+  font-size: 12px;
+}
+
+.contact-btn:hover {
+  background: teal;
+  color: #f2f2f2;
+}
